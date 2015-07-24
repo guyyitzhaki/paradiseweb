@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-sm-7 col-md-8">
                 <div style="margin-bottom: 35px;">
-                <h2>Hotel Paradise</h2>
+                <h2>Paradise Inn</h2>
                 A single room, single guest hotel at the heart of Jerusalem.
                 </div>
                 <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft">
@@ -36,7 +36,7 @@
             </div>
             <div class="col-sm-5 col-md-4">
                 <h3>Reservation</h3>
-                <form role="form" method="post" action="reserve.php" class="wowload fadeInRight">
+                <form id="reservationform" role="form" method="post" action="reserve.php" class="wowload fadeInRight">
                     <div class="form-group">
                         <div class="row">
                             <div id="sandbox-container" class="col-xs-12"><div></div></div>
@@ -97,9 +97,24 @@
                     <a class="right carousel-control" href="#RoomCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
                 </div>
                 <!-- RoomCarousel-->
-                <div class="caption">Room<a href="rooms.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+                <div class="caption"><a href="rooms.php">Room</a><a href="rooms.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
             </div>
 
+
+            <div class="col-sm-4">
+                <!-- RoomCarousel -->
+                <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="images/art/guyy.png" class="img-responsive" alt="slide"></div>
+                        <div class="item  height-full"><img src="images/art/guyy.png"  class="img-responsive" alt="slide"></div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                    <a class="right carousel-control" href="#FoodCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                </div>
+                <!-- RoomCarousel-->
+                <div class="caption"><a href="art.php">Art Collection</a><a href="art.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+            </div>
 
             <div class="col-sm-4">
                 <!-- RoomCarousel -->
@@ -114,29 +129,15 @@
                     <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
                 </div>
                 <!-- RoomCarousel-->
-                <div class="caption">Tour Packages<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+                <div class="caption"><a href="attractions.php">Attractions</a><a href="attractions.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
             </div>
 
 
-            <div class="col-sm-4">
-                <!-- RoomCarousel -->
-                <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="item active"><img src="images/photos/1.jpg" class="img-responsive" alt="slide"></div>
-                        <div class="item  height-full"><img src="images/photos/2.jpg"  class="img-responsive" alt="slide"></div>
-                        <div class="item  height-full"><img src="images/photos/5.jpg"  class="img-responsive" alt="slide"></div>
-                    </div>
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                    <a class="right carousel-control" href="#FoodCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-                </div>
-                <!-- RoomCarousel-->
-                <div class="caption">Food and Drinks<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
-            </div>
         </div>
     </div>
 </div>
 <!-- services -->
+
 
 
 <?php include 'footer.php';?>

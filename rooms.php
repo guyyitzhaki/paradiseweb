@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-sm-12 col-md-5"> 
     <p>An open air room situated in the luscious garden of Hansen house.</p>
-    <p>By Learning Ways To Become Peaceful. One of the greatest barriers to making the sale is your prospect's natural. Don't stubbornly. Don't stubbornly. Don't stubbornly. -And Gain Power By Learning Ways To Become Peaceful. </p>
+    <p> </p>
     </div>
     <div class="col-sm-6 col-md-3 amenitites"> 
     <h3>Available Services</h3>
@@ -31,15 +31,16 @@
       <li>Free Wifi</li>
       <li>Running Water <i>(Coming soon!)</i></li>
       <li>Electricity <i>(Coming soon!)</i></li>
+      <li>Electric Shutters</li>
       <li>Indoor <a href="gallery-template.php?gallery=pool">swimming pool</a></li>
-      <li>Free access to <a href="http://mamuta.org">mamuta art center</a></li>
-
+      <li>Free tickets to <a href="http://mamuta.org" target="_blank">Mamuta art & media center</a></li>
+      <li>Free entrance to open air screenings, concerts and festivals at the <a href="http://hansen.co.il" target="_blank">Hansen house</a></li>
     </ul>
     
 
     </div>  
     <div class="col-sm-3 col-md-2">
-      <div class="size-price">Size<span>44 sq</span></div>
+      <div class="size-price">Size<span>225 sq m</span></div>
     </div>
     <div class="col-sm-3 col-md-2">
       <div class="size-price">Price<span>$1250.00</span></div>

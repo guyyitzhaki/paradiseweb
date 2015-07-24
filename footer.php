@@ -11,17 +11,17 @@
                 </div>              
                  
                  <div class="col-sm-3">
-                    <h4>Quick Links</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="rooms.php">Room</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="attractions.php">Attractions</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="about.php">About</a></li>
-                    </ul>
+                    <!--<h4>Quick Links</h4>-->
+                    <!--<ul class="list-unstyled">-->
+                        <!--<li><a href="rooms.php">Room</a></li>-->
+                        <!--<li><a href="gallery.php">Gallery</a></li>-->
+                        <!--<li><a href="attractions.php">Attractions</a></li>-->
+                        <!--<li><a href="contact.php">Contact</a></li>-->
+                        <!--<li><a href="about.php">About</a></li>-->
+                    <!--</ul>-->
                 </div>
                  <div class="col-sm-4 subscribe">
-                    <h4>Subscription</h4>
+                    <h4>Subscribe to our news letter</h4>
                      <form method="post" action="subscribe-mail.php">
                     <div class="input-group">
                     <input type="text" class="form-control" id="email" name="email" placeholder="email" required="true" >
@@ -34,9 +34,9 @@
 
                     <a href="https://www.facebook.com/mamutacenter"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
                     <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                    <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                    <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
+                    <!--<a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>-->
                     <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
                     </div>
                 </div>

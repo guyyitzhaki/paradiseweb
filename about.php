@@ -7,11 +7,14 @@
               <div class="col-sm-4"><p>Fale acid rest bock, " trappist biere de garde," infusion oxidized, carboy. hard cider, crystal malt hoppy pitch alpha acid dry stout tulip glass fermentation. bitter malt extract, dunkle, squares. units of bitterness trappist wort chiller keg krausen ester. brewpub. cold filter length, alcohol copper degrees plato aau.</p></div>
               <div class="col-sm-4"><p>Dry stout aau pilsner. bock cold filter lauter tun specific gravity degrees plato ibu cold filter. brew kettle crystal malt, hard cider ipa bright beer caramel malt. pitching aerobic keg finishing hops pub units of bitterness.</p></div>              
        </div>
-       <span class="row">
-              <ul>
+       <div><p></p></div>
+       <div class="row">
+              <div style="padding-bottom: 20px;">This project was made possible thanks to</div>
+              <ul style="list-style-type: none;">
                      <li class="links"><a href="http://www.jda.gov.il/"><img src="images/jda.png" style="max-width:100px;"><span style="padding-left: 10px;">Jerusalem Development Authority</span></a></li>
                      <li class="links"><a href="http://www.mamuta.org/"><img src="images/mamuta.jpg" style="max-width:100px;"><span style="padding-left: 10px;">Mamuta art and media center</span></a></li>
                      <li class="links"><a href="http://www.hansen.co.il/"><img src="images/hansen.jpg" style="max-width:100px;max-height: 55px;"><span style="padding-left: 10px;">Hansen House</span></a></li>
+                     <li class="links"><a href="hhttp://mcs.gov.il/Culture/Pages/default.aspx/"><img src="images/tarbut.png" style="max-width:100px;max-height: 55px;"><span style="padding-left: 10px;">Ministry of Culture and Sport - Culture Authority</span></a></li>
               </ul>
        </div>
 

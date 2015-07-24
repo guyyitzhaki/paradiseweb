@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="paradisehotel">
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Paradise Hotel</title>
+<title>Paradise Inn</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
@@ -67,10 +67,10 @@
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: 10px;">
       
       <ul class="nav navbar-nav">        
-        <li><a href="index.php">Home </a></li>
         <li><a href="rooms.php">Room</a></li>
-        <li><a href="gallery.php">Gallery</a></li>
+        <li><a href="art.php">Art Collection</a></li>
         <li><a href="attractions.php">Attractions</a></li>
+        <li><a href="http://facebook.com" target="_blank">Guestbook</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="about.php">About</a></li>
       </ul>

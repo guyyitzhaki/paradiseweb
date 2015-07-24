@@ -47,7 +47,7 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 
 .services{background-color:#dedbd3; }
 .services .caption{background-color: #b9b2a0;color: #46433b;padding: 1.5em;}
-.services .caption a {color: #585650;font-size: 1.25em;}
+.services .caption a {color: #585650;font-size: 1em;}
 .services .caption a:hover{color: #fff;}
 .carousel-control{width: 10%;background: none !important;}
 .carousel-control i.fa{position: absolute;left: 0;right: 0;top: 50%;margin-top: -10px;}
@@ -73,6 +73,10 @@ footer .subscribe .social a{font-size: 1.5em;margin-right: 0.25em;}
 .datepicker {
     font-size: 14px;
     margin: auto;
+}
+
+.reserved {
+    background-color: #ff0000;
 }
 
 #paradisemap {
