@@ -70,7 +70,7 @@
         <li><a href="rooms.php">Room</a></li>
         <li><a href="art.php">Art Collection</a></li>
         <li><a href="attractions.php">Attractions</a></li>
-        <li><a href="http://facebook.com" target="_blank">Guestbook</a></li>
+        <li><a href="guestbook.php">Guestbook</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="about.php">About</a></li>
       </ul>

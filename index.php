@@ -20,13 +20,30 @@
 
 
 <!-- reservation-information -->
+<script>
+    function validateDate() {
+        var dates = document.getElementById("dates").value;
+        if (dates == "") {
+            $("#occupiedAlert").hide();
+            $("#noDatesAlert").show();
+            return false;
+        }
+        if (dates.indexOf("OCCUPIED") != -1) {
+            $("#noDatesAlert").hide();
+            $("#occupiedAlert").show();
+            return false;
+        }
+        return true;
+
+    }
+</script>
 <div id="information" class="spacer reserve-info ">
     <div class="container">
         <div class="row">
             <div class="col-sm-7 col-md-8">
                 <div style="margin-bottom: 35px;">
                 <h2>Paradise Inn</h2>
-                A single room, single guest hotel at the heart of Jerusalem.
+                    <span style="line-height: 22px;">Paradise Inn, Talbiyeh, Jerusalem.<br>A dream for only one person.<br>Infinite stars and a real gate to paradise.<br>Reserve your room at the former Lepers home.<br>Jerusalem, where any piece of land can become your temporary dwelling.</span>
                 </div>
                 <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft">
                     <!--<iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
@@ -36,7 +53,7 @@
             </div>
             <div class="col-sm-5 col-md-4">
                 <h3>Reservation</h3>
-                <form id="reservationform" role="form" method="post" action="reserve.php" class="wowload fadeInRight">
+                <form id="reservationform" role="form" method="post" onSubmit="return validateDate();" action="reserve.php" class="wowload fadeInRight">
                     <div class="form-group">
                         <div class="row">
                             <div id="sandbox-container" class="col-xs-12"><div></div></div>
@@ -70,6 +87,14 @@
                     <div class="form-group">
                         <textarea class="form-control"  id="msg" name="msg" placeholder="Message" rows="4"></textarea>
                     </div>
+                    <div id="occupiedAlert" class="alert alert-danger" style="display:none;">
+                        <a href="#" class="close" data-dismiss="alert">&times;</a>
+                        <strong>Note!</strong> The room is already reserved for these dates.
+                    </div>
+                    <div id="noDatesAlert" class="alert alert-danger" style="display:none;">
+                        <a href="#" class="close" data-dismiss="alert">&times;</a>
+                        <strong>Error!</strong> Please select a date.
+                    </div>
                     <button class="btn btn-default">Submit</button>
                 </form>
             </div>
@@ -88,8 +113,9 @@
                 <!-- RoomCarousel -->
                 <div id="RoomCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="images/pics/1.jpg" class="img-responsive" alt="slide"></div>
-                        <div class="item  height-full"><img src="images/pics/2.jpg"  class="img-responsive" alt="slide"></div>
+
+                        <div class="item active"><a href="rooms.php"><img src="images/pics/1.jpg" class="img-responsive" alt="slide"></a></div>
+                        <div class="item  height-full"><a href="rooms.php"><img src="images/pics/2.jpg"  class="img-responsive" alt="slide"></a></div>
 
                     </div>
                     <!-- Controls -->

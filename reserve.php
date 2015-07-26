@@ -74,7 +74,10 @@
 
             ?>
             <!-- include your own success html here -->
-            Recorded reservation for <?php echo $name; ?> on <?php echo $dates; ?>
+            <h4>Recorded reservation for <?php echo $name; ?> on <?php echo $dates; ?>.</h4><br>
+            Thank you for your Reservation!
+            You should receive a confirmation email soon.<br>
+            We will be in touch with you to finalize the details of your reservation.
         <?php
         }
 

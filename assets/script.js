@@ -73,23 +73,25 @@ $(function(){
         }
     }).on('changeDate', function(e) {
 
-        for (var i = 0; i < e.dates.length; i++) {
-            if (occupied(e.dates[i])) {
-                //$('.datepicker').clearDates();
-                //return;
-            }
-
-        }
         var str = "";
+        var isOccupied = false;
         for (var i = 0; i < e.dates.length; i++) {
             if (occupied(e.dates[i])) {
                 str += "OCCUPIED";
+                isOccupied = true;
             }
             str += e.dates[i].toDateString();
             str += ", "
         }
         if (str.length > 0) {
             str = str.substring(0, str.length - 2);
+        }
+        if (isOccupied) {
+            $("#noDatesAlert").hide();
+            $("#occupiedAlert").show();
+        }
+        else {
+            $("#occupiedAlert").hide();
         }
         $('#dates').val(str);
         console.log(str);
