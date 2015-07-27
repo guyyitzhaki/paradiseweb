@@ -89,7 +89,7 @@
                     </div>
                     <div id="occupiedAlert" class="alert alert-danger" style="display:none;">
                         <a href="#" class="close" data-dismiss="alert">&times;</a>
-                        <strong>Note!</strong> The room is already reserved for these dates.
+                        <strong>Warning!</strong> The room is already reserved for these dates.
                     </div>
                     <div id="noDatesAlert" class="alert alert-danger" style="display:none;">
                         <a href="#" class="close" data-dismiss="alert">&times;</a>

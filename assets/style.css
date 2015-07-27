@@ -114,7 +114,7 @@ div.selector option{ padding: 10px;}
 .rooms .info{padding: 1.5em;background-color: #E8E7E0;}
 
 
-.room-features .amenitites li{margin-bottom: 1em;}
+.room-features .amenitites li{margin-bottom: 1em; line-height: 1em; font-size: medium;}
 .room-features .size-price{background-color: #C7C5BB;padding: 2em 0;text-align: center;color: #fff;height: 10.97em;line-height: 3em;}
 .room-features .size-price span{display: block;font-size: 2em;}
 

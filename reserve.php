@@ -34,7 +34,7 @@
                 $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
             }
 
-            $string_exp = "/^[A-Za-z .'-]+$/";
+            $string_exp = "/^[א-תת-אA-Za-z .'-]+$/";
 
             if(!preg_match($string_exp,$name)) {
                 $error_message .= 'The name you entered does not appear to be valid.<br />';
@@ -61,23 +61,24 @@
             $headers = 'From: '.$email."\r\n".
             'Reply-To: '.$email."\r\n" .
             'X-Mailer: PHP/' . phpversion();
-            //@mail($email_to, $email_subject, $email_message, $headers);
+            @mail($email_to, $email_subject, $email_message, $headers);
 
             $confirmation_subject = "Reservation request submitted";
-            $confirmation_message = "Thank you for reserving the room at the Paradise Inn\n. Your reservation for ";
+            $confirmation_message = "Thank you for reserving your room at the Paradise Inn.\nYour reservation for ";
             $confirmation_message = $confirmation_message.$dates." has been recorded.\n";
-            $confirmation_message = $confirmation_message."We will Contact you shortly.\n";
+            $confirmation_message = $confirmation_message."We will contact you shortly to finalize the reservation.\n";
             $confirmation_headers = 'From: '.$email_to."\r\n".
             'Reply-To: '.$email_to."\r\n" .
             'X-Mailer: PHP/' . phpversion();
-            //@mail($email, $confirmation_subject, $confirmation_message, $confirmation_headers);
+            @mail($email, $confirmation_subject, $confirmation_message, $confirmation_headers);
 
             ?>
             <!-- include your own success html here -->
             <h4>Recorded reservation for <?php echo $name; ?> on <?php echo $dates; ?>.</h4><br>
-            Thank you for your Reservation!
+            <span style="line-height: 20px;">Thank you for your reservation!<br>
             You should receive a confirmation email soon.<br>
             We will be in touch with you to finalize the details of your reservation.
+                </span>
         <?php
         }
 

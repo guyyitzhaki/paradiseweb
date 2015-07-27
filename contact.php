@@ -8,9 +8,10 @@
 <script>
 	var map;
 	function initialize() {
+		var hotelLatLng = new google.maps.LatLng(31.767259, 35.216975);
 		map = new google.maps.Map(document.getElementById('map-canvas'), {
 			zoom: 16,
-			center: {lat: 31.767259, lng: 35.216975}
+			center: hotelLatLng
 		});
 
 		var borderCoordinates = [
@@ -55,6 +56,12 @@
 		}
 		var hotel = new google.maps.Polygon(hotelOptions);
 		hotel.setMap(map);
+
+		var hotelMarker = new google.maps.Marker({
+			position: hotelLatLng,
+			map: map,
+			icon: 'images/mapicon.png'
+		});
 
 
 	}

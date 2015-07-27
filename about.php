@@ -31,42 +31,13 @@
                      <p>&nbsp;</p><p>&nbsp;</p>
               <div style="padding-bottom: 20px;">This project was made possible thanks to</div>
               <ul style="list-style-type: none;">
-                     <li class="links"><a href="http://www.jda.gov.il/" target="_blank"><img src="images/jda.png" style="max-width:100px;"><span style="padding-left: 10px;">Jerusalem Development Authority</span></a></li>
-                     <li class="links"><a href="http://www.hansen.co.il/" target="_blank"><img src="images/hansen.jpg" style="max-width:100px;max-height: 55px;"><span style="padding-left: 10px;">Hansen House</span></a></li>
-                     <li class="links"><a href="http://mcs.gov.il/Culture/Pages/default.aspx/" target="_blank"><img src="images/tarbut.png" style="max-width:100px;max-height: 55px;"><span style="padding-left: 10px;">Ministry of Culture and Sport - Culture Authority</span></a></li>
-                     <li class="links"><a href="http://www.mamuta.org/" target="_blank"><img src="images/mamuta.jpg" style="max-width:100px;"><span style="padding-left: 10px;">Mamuta art and media center</span></a></li>
+                     <li class="links"><a href="http://www.jda.gov.il/" target="_blank"><img src="images/logos/jda2.png" style="max-width:100px;"><span style="padding-left: 10px;">Jerusalem Development Authority</span></a></li>
+                     <li class="links"><a href="http://www.hansen.co.il/" target="_blank"><span style="width:100px"><img src="images/logos/hansen2.png" style="max-width:100px;max-height: 55px;"></span><span style="padding-left: 10px;">Hansen House</span></a></li>
+                     <li class="links"><a href="http://mcs.gov.il/Culture/Pages/default.aspx/" target="_blank"><img src="images/logos/tarbut2.png" style="max-width:100px;max-height: 55px;"><span style="padding-left: 10px;">Ministry of Culture and Sport - Culture Authority</span></a></li>
+                     <li class="links"><a href="http://www.mamuta.org/" target="_blank"><img src="images/logos/mamuta2.png" style="max-width:100px;"><span style="padding-left: 10px;">Mamuta art and media center</span></a></li>
               </ul>
               </div>
        </div>
-       <div class="row">
-              <div class="col-sm-12" style="font-size: smaller;">
-                     <p>&nbsp;</p><p>&nbsp;</p>
-                     <div style="padding-bottom: 20px;">This project was made possible thanks to</div>
-              </div>
-       </div>
-              <div class="row">
-                     <div class="col-md-1 text-center" >
-                            <a href="http://www.jda.gov.il/" target="_blank"><img src="images/jda.png" style="max-width:100px;"></a>
-                     </div>
-                     <div class="col-md-4 text-left" >
-                            Jerusalem Development Authority
-                     </div>
-              </div>
-              <div class="row text-center">
-                     <div class="col-md-1 text-center" >
-                            <a href="http://www.hansen.co.il/" target="_blank"><img src="images/hansen.jpg" style="max-width:100px;max-height: 55px;"></a>
-                     </div>
-                     <div class="col-md-4 text-left" >
-                            <a href="http://www.hansen.co.il/" target="_blank">Hansen House</a>
-                     </div>
-                     </div>
-                     <!--<ul style="list-style-type: none;">-->
-                            <!--<li class="links"><a href="http://www.jda.gov.il/" target="_blank"><span style="padding-left: 10px;">Jerusalem Development Authority</span></a></li>-->
-                            <!--<li class="links"><span style="padding-left: 10px;">Hansen House</span></a></li>-->
-                            <!--<li class="links"><a href="http://mcs.gov.il/Culture/Pages/default.aspx/" target="_blank"><img src="images/tarbut.png" style="max-width:100px;max-height: 55px;"><span style="padding-left: 10px;">Ministry of Culture and Sport - Culture Authority</span></a></li>-->
-                            <!--<li class="links"><a href="http://www.mamuta.org/" target="_blank"><img src="images/mamuta.jpg" style="max-width:100px;"><span style="padding-left: 10px;">Mamuta art and media center</span></a></li>-->
-                     <!--</ul>-->
-
 
        <div class="spacer">
        <div class="embed-responsive embed-responsive-16by9"><iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
