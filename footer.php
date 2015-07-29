@@ -6,8 +6,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                    <h4>Paradise Hotel</h4>
-                    <p>Paradise Hotel was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible. </p>
+                    <h4>Paradise Inn</h4>
+                    <p>Paradise Inn, Talbiyeh, Jerusalem. A dream for only one person. Infinite stars and a real gate to paradise. Reserve your room at the former Lepers home. Jerusalem, where any piece of land can become your temporary dwelling.</p>
                 </div>              
                  
                  <div class="col-sm-3">

@@ -11,9 +11,9 @@ if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
 
-    $email_to = "guy.yitzhaki@gmail.com";
+    $email_to = " paradiseinnmanagement@gmail.com";
 
-    $email_subject = "subscribe me";
+    $email_subject = "subscription request from paradise";
 
 
 
@@ -97,7 +97,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 'X-Mailer: PHP/' . phpversion();
 
-//@mail($email_to, $email_subject, $email_message, $headers);
+@mail($email_to, $email_subject, $email_message, $headers);
 
 ?>
 
@@ -107,7 +107,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 
 
-Thank you for contacting us. We will be in touch with you very soon.
+Thank you for subscribing. We will add you to our mailing list shortly.
 
 
 

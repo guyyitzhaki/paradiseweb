@@ -46,6 +46,10 @@ $('.carousel').swipe( {
      allowPageScroll: 'vertical'
  });
 
+$('#BannerCarousel').carousel({
+    interval: 10000
+});
+
 function pad(num, size) {
     var s = num+"";
     while (s.length < size) s = "0" + s;

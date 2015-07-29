@@ -5,7 +5,17 @@
 
 <!-- banner -->
 <div class="banner">
-    <img src="images/pics/banner1.jpg"  class="img-responsive" alt="slide">
+    <div id="BannerCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active"><img src="images/pics/banner1.jpg" class="img-responsive" alt="slide"></div>
+            <div class="item  height-full"><img src="images/pics/banner2.jpg"  class="img-responsive" alt="slide"></div>
+
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#TourCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+        <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+    </div>
+
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">

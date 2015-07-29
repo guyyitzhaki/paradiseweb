@@ -60,7 +60,7 @@
             $email_message .= "Phone: ".clean_string($phone)."\n";
             $email_message .= "Message: ".clean_string($msg)."\n";
 
-            $email_to = "guy.yitzhaki@gmail.com";
+            $email_to = "paradiseinnmanagement@gmail.com";
             $email_subject = "mail from paradise";
 
             // create email headers

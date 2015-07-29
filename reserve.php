@@ -6,7 +6,7 @@
 
         <?php
         if(isset($_POST['email'])) {
-            $email_to = "guy.yitzhaki@gmail.com";
+            $email_to = " paradiseinnmanagement@gmail.com";
             $email_subject = "reservation from paradise";
             function died($error) {
                 echo "We are very sorry, but there were error(s) found with the form you submitted. ";
