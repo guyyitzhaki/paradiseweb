@@ -65,7 +65,7 @@ function occupied(date) {
 $(function(){
     $('#sandbox-container div').datepicker({
         format: 'dd/mm/yyyy',
-        multidate: true,
+        multidate: false,
         clearBtn: true,
         endDate: "1/10/2015",
         startDate:"12/08/2015",

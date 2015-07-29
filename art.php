@@ -2,7 +2,7 @@
 
 <div class="container">
 
-<h2>Paradise Art collection</h2>
+<h2>Paradise Art Collection</h2>
     <div class="row">
         <div class="col-sm-12" style="padding-bottom: 10px;"><h4>The Paradise Inn is proud to host works by contemporary Jerusalem artists</h4></div>
     </div>

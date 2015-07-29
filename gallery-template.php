@@ -16,9 +16,25 @@
                 if (endswith($file, ".jpg") == true) {
                     $imgTitle = $title;
                     switch ($file) {
+                        case "P1020356.jpg":
+                            $imgTitle = $title." - Agave";
+                            break;
                         case "P1020382.jpg":
                             $imgTitle = $title." - Fig tree";
                             break;
+                        case "P1020388.jpg":
+                            $imgTitle = $title." - Grapevine";
+                            break;
+                        case "P1020364.jpg":
+                            $imgTitle = $title." - Olive tree";
+                            break;
+                        case "P1020386.jpg":
+                            $imgTitle = $title." - Pomgrenate tree and cactus";
+                            break;
+                        case "Exhibition_Solomon_s1-790x320.jpg":
+                            $imgTitle = $title." - Phil Solomon Exhibition";
+                            break;
+
                     }
                     echo "<div class=\"col-sm-4 wowload fadeInUp\"><a href=\"".$gallerydir."/".$file."\" title=\"".$imgTitle."\" class=\"gallery-image\" data-gallery><img src=\"".$gallerydir."/".$file."\" class=\"img-responsive\"></a></div>";
                 }

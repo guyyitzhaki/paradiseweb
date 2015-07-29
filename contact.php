@@ -63,6 +63,44 @@
 			icon: 'images/mapicon.png'
 		});
 
+		function CenterControl(controlDiv, map) {
+			// Set CSS for the control border
+			var controlUI = document.createElement('div');
+			controlUI.style.backgroundColor = '#fff';
+			controlUI.style.border = '2px solid #fff';
+			controlUI.style.borderRadius = '3px';
+			controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+			controlUI.style.cursor = 'pointer';
+			controlUI.style.marginBottom = '22px';
+			controlUI.style.textAlign = 'center';
+			controlUI.title = 'Click to go to paradise inn';
+			controlDiv.appendChild(controlUI);
+
+			// Set CSS for the control interior
+			var controlText = document.createElement('div');
+			controlText.style.color = 'rgb(25,25,25)';
+			controlText.style.fontFamily = 'Inconsolata,Arial,sans-serif';
+			controlText.style.fontSize = '12px';
+			controlText.style.lineHeight = '38px';
+			controlText.style.paddingLeft = '1px';
+			controlText.style.paddingRight = '1px';
+			controlText.innerHTML = 'Go to Paradise';
+			controlUI.appendChild(controlText);
+
+			// Setup the click event listeners: simply set the map to
+			// Chicago
+			google.maps.event.addDomListener(controlUI, 'click', function() {
+				map.setCenter(hotelLatLng);
+			});
+
+		}
+		var centerControlDiv = document.createElement('div');
+		var centerControl = new CenterControl(centerControlDiv, map);
+
+		centerControlDiv.index = 1;
+		map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(centerControlDiv);
+
+
 
 	}
 

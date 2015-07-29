@@ -99,7 +99,7 @@
                     </div>
                     <div id="occupiedAlert" class="alert alert-danger" style="display:none;">
                         <a href="#" class="close" data-dismiss="alert">&times;</a>
-                        <strong>Warning!</strong> The room is already reserved for these dates.
+                        <strong>Warning!</strong> The room is already reserved for this date.
                     </div>
                     <div id="noDatesAlert" class="alert alert-danger" style="display:none;">
                         <a href="#" class="close" data-dismiss="alert">&times;</a>
@@ -138,11 +138,11 @@
 
 
             <div class="col-sm-4">
-                <!-- RoomCarousel -->
+                <!-- FoodCarousel -->
                 <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="images/pics/art/chen.jpg" class="img-responsive" alt="slide"></div>
-                        <div class="item  height-full"><img src="images/pics/art/guyy.png"  class="img-responsive" alt="slide"></div>
+                        <div class="item active"><a href="art.php"><img src="images/pics/art/chen.jpg" class="img-responsive" alt="slide"></a></div>
+                        <div class="item  height-full"><a href="art.php"><img src="images/pics/art/guyy.png"  class="img-responsive" alt="slide"></a></div>
                     </div>
                     <!-- Controls -->
                     <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -156,8 +156,8 @@
                 <!-- RoomCarousel -->
                 <div id="AttractionCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="images/pics/shemeshcar.jpg" class="img-responsive" alt="slide"></div>
-                        <div class="item  height-full"><img src="images/pics/floracar.jpg"  class="img-responsive" alt="slide"></div>
+                        <div class="item active"><a href="attractions.php"><img src="images/pics/shemeshcar.jpg" class="img-responsive" alt="slide"></a></div>
+                        <div class="item  height-full"><a href="attractions.php"><img src="images/pics/floracar.jpg"  class="img-responsive" alt="slide"></a></div>
 
                     </div>
                     <!-- Controls -->
