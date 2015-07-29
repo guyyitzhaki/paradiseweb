@@ -58,7 +58,7 @@ function pad(num, size) {
 
 function occupied(date) {
     var dateFormat = date.getUTCFullYear() + pad((date.getUTCMonth()+1),2)  + pad((date.getUTCDate()+1),2);
-    return (dateFormat >= '20150730' && dateFormat <= '20150915');
+    return (dateFormat >= '20150812' && dateFormat <= '20150915');
 }
 
 
@@ -68,7 +68,7 @@ $(function(){
         multidate: true,
         clearBtn: true,
         endDate: "1/10/2015",
-        startDate:"30/07/2015",
+        startDate:"12/08/2015",
         todayHighlight: true,
         beforeShowDay: function(date) {
             if (occupied(date)) {

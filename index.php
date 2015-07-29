@@ -53,7 +53,7 @@
             <div class="col-sm-7 col-md-8">
                 <div style="margin-bottom: 35px;">
                 <h2>Paradise Inn</h2>
-                    <span style="line-height: 22px;">Paradise Inn, Talbiyeh, Jerusalem.<br>A dream for only one person.<br>Infinite stars and a real gate to paradise.<br>Reserve your room at the former Lepers home.<br>Jerusalem, where any piece of land can become your temporary dwelling.</span>
+                    <span style="line-height: 22px;"><p>Paradise Inn, Talbiyeh, Jerusalem.<br>A dream for only one person.<br>Infinite stars and a real gate to paradise.<br>Reserve your room at the former Lepers home.<br></p><p>Jerusalem, where any piece of land can become your temporary dwelling.</p></span>
                 </div>
                 <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft">
                     <!--<iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
@@ -141,8 +141,8 @@
                 <!-- RoomCarousel -->
                 <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="images/art/guyy.png" class="img-responsive" alt="slide"></div>
-                        <div class="item  height-full"><img src="images/art/guyy.png"  class="img-responsive" alt="slide"></div>
+                        <div class="item active"><img src="images/pics/art/chen.jpg" class="img-responsive" alt="slide"></div>
+                        <div class="item  height-full"><img src="images/pics/art/guyy.png"  class="img-responsive" alt="slide"></div>
                     </div>
                     <!-- Controls -->
                     <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -154,10 +154,10 @@
 
             <div class="col-sm-4">
                 <!-- RoomCarousel -->
-                <div id="TourCarousel" class="carousel slide" data-ride="carousel">
+                <div id="AttractionCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="images/pics/4.jpg" class="img-responsive" alt="slide"></div>
-                        <div class="item  height-full"><img src="images/pics/6.jpg"  class="img-responsive" alt="slide"></div>
+                        <div class="item active"><img src="images/pics/shemeshcar.jpg" class="img-responsive" alt="slide"></div>
+                        <div class="item  height-full"><img src="images/pics/floracar.jpg"  class="img-responsive" alt="slide"></div>
 
                     </div>
                     <!-- Controls -->

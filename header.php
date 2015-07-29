@@ -30,8 +30,8 @@
 
 
 <!-- favicon -->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" href="assets/style.css">
 
@@ -50,7 +50,7 @@
  top -->
 
 <!-- header -->
-<nav class="navbar  navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar  navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -103,6 +103,9 @@ function getGalleryTitle($dir) {
       break;
     case "pool":
       $title = "Pool";
+      break;
+    case "art/chen":
+      $title = "Chen Cohen - &lt;Death Catalog&gt;";
       break;
   }
   return $title;

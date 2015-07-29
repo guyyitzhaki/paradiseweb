@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<div class="container" style="margin-top: 90px;">
+<div class="container">
 	<h1 class="title">Our Guestbook</h1>
 	<div class="row" style="text-align: center;">
 		<div class="col-xs-12">
