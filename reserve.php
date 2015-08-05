@@ -25,6 +25,7 @@
             $dates = $_POST['dates']; // required
             $rooms = $_POST['rooms'];
             $adults = $_POST['adults'];
+            $nights = $_POST['nights'];
             $msg = $_POST['msg'];
 
             $error_message = "";
@@ -54,6 +55,7 @@
             $email_message .= "Rooms: ".clean_string($rooms)."\n";
             $email_message .= "Adults: ".clean_string($adults)."\n";
             $email_message .= "Dates: ".clean_string($dates)."\n";
+            $email_message .= "Nights: ".clean_string($nights)."\n";
             $email_message .= "Message: ".clean_string($msg)."\n";
 
 
@@ -65,6 +67,7 @@
 
             $confirmation_subject = "Reservation request submitted";
             $confirmation_message = "Thank you for reserving your room at the Paradise Inn.\nYour reservation for ";
+            $confirmation_message = $confirmation_message.$nights." night(s) on ";
             $confirmation_message = $confirmation_message.$dates." has been recorded.\n";
             $confirmation_message = $confirmation_message."We will contact you shortly to finalize the reservation.\n";
             $confirmation_headers = 'From: '.$email_to."\r\n".
@@ -74,7 +77,7 @@
 
             ?>
             <!-- include your own success html here -->
-            <h4>Recorded reservation for <?php echo $name; ?> on <?php echo $dates; ?>.</h4><br>
+            <h4>Recorded reservation for <?php echo $name; ?>: <?php echo $nights;?> night(s) on <?php echo $dates; ?>.</h4><br>
             <span style="line-height: 20px;">Thank you for your reservation!<br>
             You should receive a confirmation email soon.<br>
             We will be in touch with you to finalize the details of your reservation.

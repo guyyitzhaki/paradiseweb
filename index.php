@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 
-
+<div class="container">
 
 <!-- banner -->
 <div class="banner">
@@ -79,18 +79,30 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-xs-4">
                                 <select class="form-control" id="rooms" name="rooms" required="true">
-                                    <option value="" disabled selected>No. of Rooms</option>
+                                    <option value="" disabled selected>Rooms</option>
                                     <option>1</option>
                                 </select>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-4">
                                 <select class="form-control" id="adults" name="adults" required="true">
-                                    <option value="" disabled selected>No. of Adults</option>
+                                    <option value="" disabled selected>Adults</option>
                                     <option>1</option>
                                 </select>
-                            </div></div>
+                            </div>
+                            <div class="col-xs-4">
+                                <select class="form-control" id="nights" name="nights" required="true">
+                                    <option value="" disabled selected>Nights</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -175,6 +187,6 @@
 </div>
 <!-- services -->
 
-
+</div>
 
 <?php include 'footer.php';?>

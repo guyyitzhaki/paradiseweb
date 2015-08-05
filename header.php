@@ -50,7 +50,7 @@
  top -->
 
 <!-- header -->
-<nav class="navbar  navbar-default" role="navigation">
+<nav class="navbar  navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -66,9 +66,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: 10px;">
       
-      <ul class="nav navbar-nav">        
+      <ul class="nav navbar-nav">
+        <li><a href="index.php"><img src="images/mapicon.png" style="max-height: 40px;"></a></li>
         <li><a href="rooms.php">Room</a></li>
-        <li><a href="art.php">Art Collection</a></li>
+        <li><a href="art.php">Art</a></li>
         <li><a href="attractions.php">Attractions</a></li>
         <li><a href="guestbook.php">Guestbook</a></li>
         <li><a href="contact.php">Contact</a></li>
