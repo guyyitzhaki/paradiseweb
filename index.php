@@ -142,7 +142,8 @@
                 <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="item active"><a href="art.php"><img src="images/pics/art/chen.jpg" class="img-responsive" alt="slide"></a></div>
-                        <div class="item  height-full"><a href="art.php"><img src="images/pics/art/guyy.png"  class="img-responsive" alt="slide"></a></div>
+                        <div class="item height-full"><a href="art.php"><img src="images/pics/art/pesi.jpg" class="img-responsive" alt="slide"></a></div>
+                        <div class="item height-full"><a href="art.php"><img src="images/pics/art/guyy.png"  class="img-responsive" alt="slide"></a></div>
                     </div>
                     <!-- Controls -->
                     <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>

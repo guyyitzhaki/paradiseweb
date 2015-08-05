@@ -107,6 +107,9 @@ function getGalleryTitle($dir) {
     case "art/chen":
       $title = "Chen Cohen - &lt;Death Catalog&gt;";
       break;
+    case "art/pesi":
+      $title = "Pesi Komar - Room Kit";
+      break;
   }
   return $title;
 }

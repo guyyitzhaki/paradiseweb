@@ -29,8 +29,8 @@
     <h3>Available Services</h3>
     <ul>
       <li>Free Wifi</li>
-      <li>Running Water <i>(Coming soon!)</i></li>
-      <li>Electricity <i>(Coming soon!)</i></li>
+      <li>Running Water <i>(New!)</i></li>
+      <li>Electricity <i>(New!)</i></li>
       <li>Electric Shutters</li>
       <li>Indoor <a href="gallery-template.php?gallery=pool">swimming pool</a></li>
       <li>Free tickets to <a href="http://mamuta.org" target="_blank">Mamuta art & media center</a></li>
