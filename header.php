@@ -115,6 +115,19 @@ function getGalleryTitle($dir) {
   return $title;
 }
 
+function getGalleryText($dir) {
+  $text = "";
+  switch ($dir) {
+    case "art/chen":
+      $text = "A catalog of deathbed images taken in room #1 of the Paradise Inn";
+      break;
+    case "art/pesi":
+      $text = "Room-Kits for sale! Kit includes: Floor, Hotel Furniture, Walls, Artificial Plants and More! Ceiling not included. Room-Kits can be found in Paradise Hotel Gift Shop or can be ordered through the web site.";
+      break;
+  }
+  return $text;
+}
+
 ?>
 <!-- header -->
 

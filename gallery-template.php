@@ -7,7 +7,8 @@
             $title = getGalleryTitle($gallery);
             echo $title;
        ?>
-        </h1>
+    </h1>
+    <h4><?php echo getGalleryText($gallery); ?></h4>
         <div class="row gallery" >
        <?php
             $gallerydir = "images/pics/".$gallery;
