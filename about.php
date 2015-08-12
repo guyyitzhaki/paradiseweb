@@ -15,6 +15,10 @@
                      <p>
                             Paradise Inn is an island surrounded by the walls of the former Jerusalem Leper's Home. A metaphor of differentiation and exclusivity, Paradise Inn is a luxurious paradise that originates from a public institution that was historically used to protect society from lepers and lepers from society. Paradise Inn dwells in the spirit of gentrification, inviting an artist to reside for free in the paradise for a month and a half. In return, the artist is expected to produce artwork for the comfort of future residents.
                      </p>
+
+                     <p>
+                            More information about the historical location can be found <a href="http://mamuta.org/?portfolio=from-the-leprosarium-jesus-hilfe-to-hansen-houe" target="_blank">here</a>.
+                     </p>
               </div>
        </div>
        <!--<div class="row">-->

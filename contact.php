@@ -119,7 +119,7 @@
 
        <div class="row">
        	<div class="col-sm-12">
-			<h3>42 Gedalyahu Alon st, Jerusalem, Israel</h3>
+			<h3>14 Gedalyahu Alon st, Jerusalem, Israel</h3>
 		</div>
        	<div class="col-sm-12">
        	<div class="map">
@@ -137,9 +137,10 @@
 
 
 		<div class="col-sm-6 col-sm-offset-3">
-			<div class="spacer">   		
+			<div class="spacer">
+				<p><h3>Visit us on <a href="https://www.facebook.com/paradiseinnjerusalem" target="_blank">facebook</a><br>&nbsp;</h3></p>
 
-       		<h4>Write to us</h4>
+				<h4>Write to us</h4>
 			<form role="form" method="post" action="contact-mail.php">
 			<div class="form-group">	
 			<input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name" required="true" >

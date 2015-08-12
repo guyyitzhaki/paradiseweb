@@ -26,11 +26,11 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 .navbar{margin: 0;}
 .navbar-nav{margin:0 -15px;}
 .navbar-nav > li > a{font-size: 1em;line-height: 3.56em;padding: 10px 0 0px 30px;}
-.navbar-default{border:none;background: #eeeeee;}
+.navbar-default{border:none;background: #ffffff;}
 .navbar-brand{height: 73px;}
 /*nav*/
 
-
+a.anchor{display: block; position: relative; top: -90px; visibility: hidden;}
 
 /*SLIDER*/
 .banner {position: relative;color: #fff;}

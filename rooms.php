@@ -9,8 +9,8 @@
  <!-- RoomDetails -->
             <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/pics/1.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/pics/2.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="images/pics/7.jpg" class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/pics/8.jpg"  class="img-responsive" alt="slide"></div>
                 <div class="item  height-full"><img src="images/pics/4.jpg"  class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-sm-12 col-md-5"> 
     <p>An open air room situated in the luscious garden of Hansen house.</p>
-    <p> </p>
+    <p><a href="index.php#reservation" class="btn btn-default">Reserve</a></p>
     </div>
     <div class="col-sm-6 col-md-3 amenitites"> 
     <h3>Available Services</h3>

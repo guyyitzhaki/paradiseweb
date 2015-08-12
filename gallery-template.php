@@ -9,13 +9,14 @@
        ?>
     </h1>
     <h4><?php echo getGalleryText($gallery); ?></h4>
-        <div class="row gallery" >
+
+    <div class="row gallery" >
        <?php
             $gallerydir = "images/pics/".$gallery;
             $files = scandir($gallerydir);
             foreach ($files as $file) {
                 if (endswith($file, ".jpg") == true) {
-                    $imgTitle = $title;
+                    $imgTitle = strip_tags($title);
                     switch ($file) {
                         case "P1020356.jpg":
                             $imgTitle = $title." - Agave";

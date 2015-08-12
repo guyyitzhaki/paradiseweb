@@ -1,20 +1,18 @@
 <?php include 'header.php';?>
 
 
-<div class="container">
+
 
 <!-- banner -->
 <div class="banner">
     <div id="BannerCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="item active"><img src="images/pics/banner1.jpg" class="img-responsive" alt="slide"></div>
-            <div class="item  height-full"><img src="images/pics/banner2.jpg"  class="img-responsive" alt="slide"></div>
+            <div class="item active"><img src="images/pics/banner3.jpg" class="img-responsive" alt="slide"></div>
+            <div class="item  height-full"><img src="images/pics/banner4.jpg"  class="img-responsive" alt="slide"></div>
+            <div class="item  height-full"><img src="images/pics/banner5.jpg"  class="img-responsive" alt="slide"></div>
 
         </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#TourCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-    </div>
+   </div>
 
     <div class="welcome-message">
         <div class="wrap-info">
@@ -61,8 +59,10 @@
                     <iframe width="100%" height="400" src="https://www.youtube.com/embed/JEOOgTCuHlo" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
+            <a name="reservation" class="anchor"></a>
             <div class="col-sm-5 col-md-4">
                 <h3>Reservation</h3>
+
                 <form id="reservationform" role="form" method="post" onSubmit="return validateDate();" action="reserve.php" class="wowload fadeInRight">
                     <div class="form-group">
                         <div class="row">
@@ -136,8 +136,8 @@
                 <div id="RoomCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
 
-                        <div class="item active"><a href="rooms.php"><img src="images/pics/1.jpg" class="img-responsive" alt="slide"></a></div>
-                        <div class="item  height-full"><a href="rooms.php"><img src="images/pics/2.jpg"  class="img-responsive" alt="slide"></a></div>
+                        <div class="item active"><a href="rooms.php"><img src="images/pics/7.jpg" class="img-responsive" alt="slide"></a></div>
+                        <div class="item  height-full"><a href="rooms.php"><img src="images/pics/8.jpg"  class="img-responsive" alt="slide"></a></div>
 
                     </div>
                     <!-- Controls -->
@@ -155,6 +155,7 @@
                     <div class="carousel-inner">
                         <div class="item active"><a href="art.php"><img src="images/pics/art/chen.jpg" class="img-responsive" alt="slide"></a></div>
                         <div class="item height-full"><a href="art.php"><img src="images/pics/art/pesi.jpg" class="img-responsive" alt="slide"></a></div>
+                        <div class="item height-full"><a href="art.php"><img src="images/pics/art/shiri.png" class="img-responsive" alt="slide"></a></div>
                         <div class="item height-full"><a href="art.php"><img src="images/pics/art/guyy.png"  class="img-responsive" alt="slide"></a></div>
                     </div>
                     <!-- Controls -->
@@ -174,8 +175,8 @@
 
                     </div>
                     <!-- Controls -->
-                    <a class="left carousel-control" href="#TourCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                    <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                    <a class="left carousel-control" href="#AttractionCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                    <a class="right carousel-control" href="#AttractionCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
                 </div>
                 <!-- RoomCarousel-->
                 <div class="caption"><a href="attractions.php">Attractions</a><a href="attractions.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
@@ -187,6 +188,6 @@
 </div>
 <!-- services -->
 
-</div>
+
 
 <?php include 'footer.php';?>

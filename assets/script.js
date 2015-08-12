@@ -20,6 +20,8 @@ $(document).ready(function($) {
   $('.social i').tooltip('hide');
 });
 
+
+
 // 
 
 var wow = new WOW(
@@ -69,7 +71,7 @@ $(function(){
         clearBtn: true,
         endDate: "1/10/2015",
         startDate:"12/08/2015",
-        todayHighlight: true,
+        todayHighlight: false,
         beforeShowDay: function(date) {
             if (occupied(date)) {
                 return {classes: 'reserved', tooltip: 'Reserved'};

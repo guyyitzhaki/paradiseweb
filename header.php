@@ -66,13 +66,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: 10px;">
       
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" style="font-size: smaller">
         <li><a href="index.php"><img src="images/mapicon.png" style="max-height: 40px;"></a></li>
         <li><a href="rooms.php">Room</a></li>
         <li><a href="art.php">Art</a></li>
         <li><a href="attractions.php">Attractions</a></li>
-        <li><a href="guestbook.php">Guestbook</a></li>
+        <li><a href="blog.php">Guestbook</a></li>
+        <li><a href="https://www.facebook.com/paradiseinnjerusalem" target="_blank"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a></li>
         <li><a href="contact.php">Contact</a></li>
+
         <li><a href="about.php">About</a></li>
       </ul>
     </div><!-- Wnavbar-collapse -->
@@ -106,10 +108,10 @@ function getGalleryTitle($dir) {
       $title = "Pool";
       break;
     case "art/chen":
-      $title = "Chen Cohen - &lt;Death Catalog&gt;";
+      $title = "Silent Room No. 1 - <a href='http://chencoo.tumblr.com/' target='_blank'>Chen Cohen</a>";
       break;
     case "art/pesi":
-      $title = "Pesi Komar - Room Kit";
+      $title = "Room Kit - <a href='http://pesiher.wix.com/pesi-komar' target='_blank'>Pesi Komar</a>";
       break;
   }
   return $title;
@@ -127,6 +129,7 @@ function getGalleryText($dir) {
   }
   return $text;
 }
+
 
 ?>
 <!-- header -->

@@ -33,7 +33,7 @@
                      </form>
                     <div class="social">
 
-                    <a href="https://www.facebook.com/mamutacenter" target="_blank"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
+                    <a href="https://www.facebook.com/paradiseinnjerusalem" target="_blank"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
                     <a href="https://instagram.com/mamuta_and_sala_manca" target="_blank"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
                     <a href="https://twitter.com/salamancagroup" target="_blank"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
                     <!--<a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>-->

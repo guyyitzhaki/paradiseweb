@@ -13,7 +13,7 @@
 					fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));</script>
 
-				<div class="fb-page" data-href="https://www.facebook.com/mamutacenter" data-width="800" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mamutacenter"><a href="https://www.facebook.com/mamutacenter">Mamuta Art and Media Center</a></blockquote></div></div>			</div>
+				<div class="fb-page" data-href="https://www.facebook.com/paradiseinnjerusalem" data-width="800" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/paradiseinnjerusalem"><a href="https://www.facebook.com/paradiseinnjerusalem">Paradise Inn</a></blockquote></div></div>			</div>
 		</div>
 	</div>
 </div>
