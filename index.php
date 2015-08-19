@@ -44,7 +44,15 @@
         return true;
 
     }
-</script>
+
+    function updatePrice() {
+        var nights = document.getElementById("nights").value;
+        console.log(nights * 1250);
+        var price = nights * 1250;
+        document.getElementById("price").value = price + "$";
+
+    }
+ </script>
 <div id="information" class="spacer reserve-info ">
     <div class="container">
         <div class="row">
@@ -56,7 +64,7 @@
                 <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft">
                     <!--<iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
                     <!--<iframe width="100%" height="400" src="https://www.youtube.com/embed/V40N6NGV8Uk" frameborder="0" allowfullscreen></iframe>-->
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/JEOOgTCuHlo" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/KJpWEF6f3UA" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <a name="reservation" class="anchor"></a>
@@ -79,20 +87,24 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <div class="col-xs-4">
+                            <div class="col-xs-6">
                                 <select class="form-control" id="rooms" name="rooms" required="true">
                                     <option value="" disabled selected>Rooms</option>
                                     <option>1</option>
                                 </select>
                             </div>
-                            <div class="col-xs-4">
+                            <div class="col-xs-6">
                                 <select class="form-control" id="adults" name="adults" required="true">
                                     <option value="" disabled selected>Adults</option>
                                     <option>1</option>
                                 </select>
                             </div>
-                            <div class="col-xs-4">
-                                <select class="form-control" id="nights" name="nights" required="true">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <select class="form-control" id="nights" name="nights" required="true" onchange="updatePrice()">
                                     <option value="" disabled selected>Nights</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -101,6 +113,9 @@
                                     <option>5</option>
                                     <option>6</option>
                                 </select>
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="text" class="form-control"  id="price" name="price" placeholder="Price" required="false" readonly>
                             </div>
                         </div>
                     </div>

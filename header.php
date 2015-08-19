@@ -113,6 +113,10 @@ function getGalleryTitle($dir) {
     case "art/pesi":
       $title = "Room Kit - <a href='http://pesiher.wix.com/pesi-komar' target='_blank'>Pesi Komar</a>";
       break;
+    case "art/salamanca":
+      $title = "<span style='line-height: 1.5em;'>Private Landscape: Eight Seconds for Paradise<br><a href='http://www.sala-manca.net/' target='_blank'>Sala-manca Group</a> | Electronic mechanism: Amir Markovich</span>";
+      break;
+
   }
   return $title;
 }
@@ -125,6 +129,9 @@ function getGalleryText($dir) {
       break;
     case "art/pesi":
       $text = "Room-Kits for sale! Kit includes: Floor, Hotel Furniture, Walls, Artificial Plants and More! Ceiling not included. Room-Kits can be found in Paradise Hotel Gift Shop or can be ordered through the web site.";
+      break;
+    case "art/salamanca":
+      $text = "If you have dreamt that you have gone through paradise with a rose in your hand, and in the morning you wake up and discover a rose in your hand, then you hold the proof that you have gone through paradise, or that you might have saved a rose (Arturo Maure, “Delgado’s Rose”)<br><span style='font-size: smaller'>User Manual:<br>1. Insert 3NIS in (each time 1NIS then turn the knob)<br>2. Please wait</span>";
       break;
   }
   return $text;

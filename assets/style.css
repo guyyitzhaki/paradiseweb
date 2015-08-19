@@ -3,12 +3,17 @@ body{background-color: #fff;font-family: 'Inconsolata';font-size: 18px;line-heig
 .container {
     padding-top: 65px;
 }
+@media (max-width: 979px) {
+    .container {
+        padding-top: 0px;
+    }
+}
 
 .btn,a,a:hover{text-decoration: none;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;outline:0 ;}
 
 h1,h2,h3,h4,h5,h6{font-family:'Inconsolata';line-height: 1em;margin: 0;}
 h1{font-size: 5em;}
-h1.title,h2{font-size: 2em;line-height: 3em;}
+h1.title,h2{font-size: 2em;line-height: 2em;}
 h3{font-size: 1.5em; margin-bottom: 0.70em;}
 h4{font-size: 1.25em; margin-bottom: 0.75em;}
 p{margin-bottom: 1em;line-height: 1.5em;}
